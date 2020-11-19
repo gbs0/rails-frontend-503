@@ -1,0 +1,29 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  transition: .6s;
+  background: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-lewagon-white {
+	transition: .6s;
+	background: white; 
+}
+.logo {
+	background-image: asset-url('logo.png');
+	height: 100px;
+	width: 250px;
+	background-size: cover;
+}
